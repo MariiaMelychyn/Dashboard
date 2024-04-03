@@ -96,7 +96,7 @@ background:#f8f9fe;
 
 
 .profile h4 {
-    color: #fff;
+    color: #000000;
     font-weight: 500;
 }
 
@@ -215,7 +215,9 @@ header {
   padding-right: 30px;
   /* padding-left:40px; */
 }
-
+.profile__name{
+    color:#000000;
+}
 .search-button {
   position: absolute;
   top: 50%;
