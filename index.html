@@ -1,17 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Dashboard/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>Modern Admin Dashboard</title>
     
-    <script type="module" crossorigin src="/Dashboard/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Dashboard/assets/index-10c40100.css">
-  </head>
-  <body>
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="/Dashboard/assets/index-b8541c79.css">
+</head>
+<body>
+   <input type="checkbox" id="menu-toggle">
+    <div class="sidebar">
+     
+        
+        <div class="side-content">
+           
 
+            <div class="side-menu">
+             
+                <ul>
+  
+                    <a href="" class="dashboar-hero">
+                      <img src="/Dashboard/assets/dashbord-bca6b3d1.svg" alt="Dashboard">
+                       <p class="dashboard">Dashboard</p>
+                       <span>v.01</span>
+                   </a>
+                  </li>
+                    <li>
+                       <a href="">
+                           <img src="/Dashboard/assets/one-96e4a957.svg" alt="Dashboard">
+                            <small>Dashboard</small>
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                        </a>
+                    </li>
+                    <li>
+                       <a href="">
+                        <img src="/Dashboard/assets/two-99e64b1c.svg" alt="Product">
+                            <small>Product</small>
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                        </a>
+                    </li>
+                    <li >
+                       <a href="" class="customers">
+                        <img src="/Dashboard/assets/three-0b181b75.svg" alt="Customers">
+                            <small class="customers-small"><spam class="customers-small">Customers</spam></small>
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                        </a>
+                    </li>
+                    <li>
+                       <a href="">
+                        <img src="/Dashboard/assets/foor-73b62ef9.svg" alt="Income">
+                            <small>Income</small>
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                        </a>
+                    </li>
+                    <li>
+                       <a href="">
+                        <img src="/Dashboard/assets/five-9d279db2.svg" alt="Promote">
+                            <small>Promote</small>
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                        </a>
+                    </li>
+                    <li>
+                      <a href="">
+                       <img src="/Dashboard/assets/six-3c9d5d88.svg" alt="Help">
+                           <small>Help</small>
+                           <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                       </a>
+                   </li>
+
+                </ul>
+            
+              </div>
+              <div class="profile">
+                <div class="profile-img bg-img">
+                <img src="/Dashboard/assets/evano-468edb2d.png" alt="evano">
+                </div>
+                <div>
+                <h4>Evano</h4>
+                <small>Project Manager</small>
+              </div>
+            </div>
+        </div>
+    </div>
     
-  </body>
+    <div class="main-content">
+        
+        <header>
+            <div class="header-content">
+                <label for="menu-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+                <div class="header">
+                  <p class="header-user">Hello Evano 👋🏼,</p>
+                </div>
+            </div>
+        </header>  
+        <main>
+            <div class="container">
+              <div class="container-page">
+            <div class="page-header">
+              <div>
+                <h1>All Customers</h1>
+                <small>Active Members</small>
+              </div>
+              <div class="search-container">
+                <input type="search" placeholder="Search" class="record-search">
+               
+                <button type="submit" class="search-button">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M21 21L16.65 16.65" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </button>
+              </div>
+              
+            </div>
+            <div class="page-content">
+
+
+                <div class="records table-responsive">
+
+                    <div>
+                        <table width="100%">
+                            <thead>
+                                <tr>
+                                    <th> Customer Name</th>
+                                    <th> Company</th>
+                                    <th> Phone Number</th>
+                                    <th> Email</th>
+                                    <th> Country</th>
+                                    <th> Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Jane Cooper</td>
+                                    <td>
+                                        <div class="client">
+                                            <div class="client-info">
+                                                <h4>Microsoft</h4>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                      (225) 555-0118
+                                    </td>
+                                    <td>
+                                      jane@microsoft.com
+                                    </td>
+                                    <td>
+                                      United States
+                                    </td>
+                                    <td>
+                                        <div class="actions">
+                                            <button type="button" class="active">Active</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                  <td>Floyd Miles</td>
+                                  <td>
+                                      <div class="client">
+                                          <div class="client-info">
+                                              <h4>Yahoo</h4>
+                                          </div>
+                                      </div>
+                                  </td>
+                                  <td>
+                                    (205) 555-0100
+                                  </td>
+                                  <td>
+                                    floyd@yahoo.com
+                                  </td>
+                                  <td>
+                                    Kiribati
+                                  </td>
+                                  <td>
+                                      <div class="actions">
+                                          <button type="button" class="inactive">Inactive</button>
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                <td>Ronald Richards</td>
+                                <td>
+                                    <div class="client">
+                                        <div class="client-info">
+                                            <h4>Adobe</h4>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                  (302) 555-0107
+                                </td>
+                                <td>
+                                  ronald@adobe.com
+                                </td>
+                                <td>
+                                  Israel
+                                </td>
+                                <td>
+                                    <div class="actions">
+                                        <button type="button" class="inactive">Inactive</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                              <td>Marvin McKinney</td>
+                              <td>
+                                  <div class="client">
+                                      <div class="client-info">
+                                          <h4>Tesla</h4>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td>
+                                (252) 555-0126
+                              </td>
+                              <td>
+                                marvin@tesla.com
+                              </td>
+                              <td>
+                                Iran
+                              </td>
+                              <td>
+                                  <div class="actions">
+                                      <button type="button" class="active">Active</button>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                            <td>Jerome Bell</td>
+                            <td>
+                                <div class="client">
+                                    <div class="client-info">
+                                        <h4>Google</h4>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                              (629) 555-0129
+                            </td>
+                            <td>
+                              jerome@google.com
+                            </td>
+                            <td>
+                              Réunion
+                            </td>
+                            <td>
+                                <div class="actions">
+                                    <button type="button" class="active">Active</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                          <td>Kathryn Murphy</td>
+                          <td>
+                              <div class="client">
+                                  <div class="client-info">
+                                      <h4>Microsoft</h4>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                            (406) 555-0120
+                          </td>
+                          <td>
+                            kathryn@microsoft.com
+                          </td>
+                          <td>
+                            Curaçao
+                          </td>
+                          <td>
+                              <div class="actions">
+                                  <button type="button" class="active">Active</button>
+                              </div>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td>Jacob Jones</td>
+                        <td>
+                            <div class="client">
+                                <div class="client-info">
+                                    <h4>Yahoo</h4>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                          (208) 555-0112
+                        </td>
+                        <td>
+                          jacob@yahoo.com
+                        </td>
+                        <td>
+                          Brazil
+                        </td>
+                        <td>
+                            <div class="actions">
+                                <button type="button" class="active">Active</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>Kristin Watson</td>
+                      <td>
+                          <div class="client">
+                              <div class="client-info">
+                                  <h4>Facebook</h4>
+                              </div>
+                          </div>
+                      </td>
+                      <td>
+                        (704) 555-0127
+                      </td>
+                      <td>
+                        kristin@facebook.com
+                      </td>
+                      <td>
+                        Åland Islands
+                      </td>
+                      <td>
+                          <div class="actions">
+                              <button  type="button" class="inactive">Inactive</button>
+                          </div>
+                      </td>
+                  </tr>            
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            
+            </div>
+          </div>
+        </div>
+        </main>
+        
+    </div>
+</body>
 </html>
