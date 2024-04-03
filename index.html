@@ -9,7 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-  <link rel="stylesheet" href="/Dashboard/assets/index-b8541c79.css">
+  <script type="module" crossorigin src="/Dashboard/commonHelpers.js"></script>
+  <link rel="stylesheet" href="/Dashboard/assets/index-62386971.css">
 </head>
 <body>
    <input type="checkbox" id="menu-toggle">
@@ -21,54 +22,54 @@
 
             <div class="side-menu">
              
-                <ul>
-  
-                    <a href="" class="dashboar-hero">
-                      <img src="/Dashboard/assets/dashbord-bca6b3d1.svg" alt="Dashboard">
-                       <p class="dashboard">Dashboard</p>
-                       <span>v.01</span>
+                <ul class="side-menu">
+  <li class="side-menu__item">
+                    <a href="" class="side-menu__link side-menu__link--active dashboar-hero">
+                      <img class="side-menu__icon" src="/Dashboard/assets/dashbord-bca6b3d1.svg" alt="Dashboard">
+                       <p class="side-menu__text dashboard">Dashboard</p>
+                       <span class="side-menu__version">v.01</span>
                    </a>
                   </li>
-                    <li>
-                       <a href="">
-                           <img src="/Dashboard/assets/one-96e4a957.svg" alt="Dashboard">
-                            <small>Dashboard</small>
-                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                    <li class="side-menu__item">
+                       <a href="" class="side-menu__link">
+                           <img src="/Dashboard/assets/one-96e4a957.svg" alt="Dashboard" class="side-menu__icon">
+                            <small class="side-menu__text">Dashboard</small>
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right" class="side-menu__icon">
                         </a>
                     </li>
-                    <li>
-                       <a href="">
-                        <img src="/Dashboard/assets/two-99e64b1c.svg" alt="Product">
-                            <small>Product</small>
-                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                    <li class="side-menu__item">
+                       <a href="" class="side-menu__link">
+                        <img src="/Dashboard/assets/two-99e64b1c.svg" alt="Product" class="side-menu__icon">
+                            <small class="side-menu__text">Product</small>
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right" class="side-menu__icon">
                         </a>
                     </li>
-                    <li >
-                       <a href="" class="customers">
-                        <img src="/Dashboard/assets/three-0b181b75.svg" alt="Customers">
+                    <li class="side-menu__item">
+                       <a href=""  class="side-menu__link customers">
+                        <img src="/Dashboard/assets/three-0b181b75.svg" alt="Customers" class="side-menu__icon">
                             <small class="customers-small"><spam class="customers-small">Customers</spam></small>
-                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right" class="side-menu__icon">
                         </a>
                     </li>
-                    <li>
-                       <a href="">
-                        <img src="/Dashboard/assets/foor-73b62ef9.svg" alt="Income">
-                            <small>Income</small>
-                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                    <li class="side-menu__item">
+                       <a href="" class="side-menu__link">
+                        <img src="/Dashboard/assets/foor-73b62ef9.svg" alt="Income" class="side-menu__icon">
+                            <small class="side-menu__text">Income</small>
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right" class="side-menu__icon">
                         </a>
                     </li>
-                    <li>
-                       <a href="">
-                        <img src="/Dashboard/assets/five-9d279db2.svg" alt="Promote">
-                            <small>Promote</small>
-                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                    <li class="side-menu__item">
+                       <a href="" class="side-menu__link">
+                        <img src="/Dashboard/assets/five-9d279db2.svg" alt="Promote" class="side-menu__icon">
+                            <small class="side-menu__text">Promote</small>
+                            <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right" class="side-menu__icon">
                         </a>
                     </li>
-                    <li>
-                      <a href="">
-                       <img src="/Dashboard/assets/six-3c9d5d88.svg" alt="Help">
-                           <small>Help</small>
-                           <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right">
+                    <li class="side-menu__item">
+                      <a href="" class="side-menu__link">
+                       <img src="/Dashboard/assets/six-3c9d5d88.svg" alt="Help" class="side-menu__icon">
+                           <small class="side-menu__text">Help</small>
+                           <img src="/Dashboard/assets/right-8357d6d6.svg" alt="right" class="side-menu__icon">
                        </a>
                    </li>
 
@@ -76,12 +77,12 @@
             
               </div>
               <div class="profile">
-                <div class="profile-img bg-img">
-                <img src="/Dashboard/assets/evano-468edb2d.png" alt="evano">
+                <div class="profile__image profile-img bg-img">
+                <img src="/Dashboard/assets/evano-468edb2d.png" alt="evano" class="profile__image">
                 </div>
                 <div>
-                <h4>Evano</h4>
-                <small>Project Manager</small>
+                <h4 class="profile__name">Evano</h4>
+                <small class="profile__role">Project Manager</small>
               </div>
             </div>
         </div>
@@ -94,8 +95,8 @@
                 <label for="menu-toggle">
                     <span class="las la-bars"></span>
                 </label>
-                <div class="header">
-                  <p class="header-user">Hello Evano 👋🏼,</p>
+                <div class="header header__user">
+                  <p class="header-user header__greeting">Hello Evano 👋🏼,</p>
                 </div>
             </div>
         </header>  
@@ -116,6 +117,7 @@
                     <path d="M21 21L16.65 16.65" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </button>
+             
               </div>
               
             </div>
@@ -336,10 +338,18 @@
                 </div>
             
             </div>
+            <div class="pagination-container">
+              <button id="prevPageBtn">&lt;</button>
+              <span id="pageNumbers"></span>
+              <button id="nextPageBtn">&gt;</button>
+            </div>
+            
           </div>
         </div>
         </main>
         
     </div>
+    
+    
 </body>
 </html>
